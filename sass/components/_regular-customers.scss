@@ -1,0 +1,51 @@
+.regular-customers {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.custom {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.customers-logo {
+	li {
+		margin-right: 30px;
+	}
+	&:last-child {
+		margin-right: 0px;
+		margin-right: 0px;
+	}
+	display: flex;
+}
+.customer-item {
+	a {
+		display: block;
+		width: 170px;
+		height: 90px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #afb1b8;
+	}
+}
+.customer-svg {
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		color: $accent-color;
+		border-color: $accent-color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&:focus {
+		outline: none;
+		color: $accent-color;
+		border-color: $accent-color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}
+.customer-link {
+	fill: currentColor;
+}

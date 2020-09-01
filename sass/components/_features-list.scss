@@ -1,0 +1,50 @@
+.features-list {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.features {
+	background-color: $features-bg-color;
+}
+.hidden {
+	display: none;
+}
+.advantages {
+	display: flex;
+	li {
+		width: 270px;
+		margin-right: 30px;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}
+.feature-background {
+	display: flex;
+	background-color: #f5f4fa;
+	width: 270px;
+	height: 120px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.feature-icon {
+	width: 70px;
+	height: 70px;
+}
+.feature-name {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.feature-desc {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	margin-top: 0;
+	margin-bottom: 0px;
+}

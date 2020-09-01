@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+/*body main bg color and fonts, other main colors and styles */
+body {
+	background-color: var(--main-bg-color);
+	color: var(--main-txt-color);
+	font-family: "Roboto", sans-serif;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+p,
+.con-link {
+	color: var(--sec-txt-color);
+}
+.our-team {
+	background-color: var(--sec-bg-color);
+}
+footer {
+	background-color: var(--footer-bg-color);
+}
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	text-align: center;
+	letter-spacing: 0.06em;
+	background-color: $accent-color;
+	color: $over-txt-color;
+	width: 200px;
+	height: 50px;
+	border: transparent;
+	border-radius: 4px;
+}
