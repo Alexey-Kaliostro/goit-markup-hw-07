@@ -1587,7 +1587,7 @@ textarea::placeholder {
 }
 
 .portfolio-overlay {
-  color: var(--over-txt-color);
+  color: #ffffff;
   margin: 0;
   padding-top: 63px;
   padding-bottom: 63px;
@@ -1669,7 +1669,7 @@ textarea::placeholder {
 }
 
 .portfolio a {
-  color: var(--main-txt-color);
+  color: #212121;
   text-decoration: none;
 }
 
@@ -1695,7 +1695,7 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--sec-txt-color);
+  color: #757575;
   margin-top: 4px;
   margin-bottom: 0;
 }

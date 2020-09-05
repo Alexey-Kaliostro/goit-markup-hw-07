@@ -1,5 +1,5 @@
 .portfolio-overlay {
-	color: var(--over-txt-color);
+	color: $over-txt-color;
 	margin: 0;
 	padding-top: 63px;
 	padding-bottom: 63px;
@@ -65,7 +65,7 @@
 		}
 	}
 	a {
-		color: var(--main-txt-color);
+		color: $main-txt-color;
 		text-decoration: none;
 	}
 }
@@ -91,7 +91,7 @@
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.03em;
-	color: var(--sec-txt-color);
+	color: $sec-txt-color;
 	margin-top: 4px;
 	margin-bottom: 0;
 }
