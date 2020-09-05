@@ -1,3 +1,69 @@
+/* raleway-regular - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v17-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway-v17-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v17-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-regular.woff") format("woff"), url("../fonts/raleway-v17-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/raleway-v17-latin_cyrillic-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+
+/* raleway-700 - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/raleway-v17-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway-v17-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-700.woff") format("woff"), url("../fonts/raleway-v17-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/raleway-v17-latin_cyrillic-700.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin_cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-900 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-latin_cyrillic-900.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1152,7 +1218,6 @@ footer a {
   margin-left: 10px;
 }
 
-/*tut*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -1405,19 +1470,6 @@ textarea::placeholder {
   position: absolute;
 }
 
-.checkbox:checked + .checkbox-icon {
-  background-color: #2196f3;
-  background-image: url("../images/svg-images/modal-check-icon.svg");
-  background-size: contain;
-  background-origin: border-box;
-  border: 2px solid #2196f3;
-  border-radius: 2px;
-}
-
-.checkbox:focus ~ .checkbox-icon {
-  border-color: #2196f3;
-}
-
 .modal-button {
   width: 200px;
   padding: 0;
@@ -1441,6 +1493,15 @@ textarea::placeholder {
   border-radius: 2px;
   pointer-events: none;
   margin-right: 7px;
+}
+
+.checkbox:checked + .checkbox-icon {
+  background-color: #2196f3;
+  background-image: url("../images/svg-images/modal-check-icon.svg");
+  background-size: contain;
+  background-origin: border-box;
+  border: 2px solid #2196f3;
+  border-radius: 2px;
 }
 
 .checkbox-focus:focus ~ .checkbox-icon {
@@ -1526,7 +1587,7 @@ textarea::placeholder {
 }
 
 .portfolio-overlay {
-  color: #ffffff;
+  color: var(--over-txt-color);
   margin: 0;
   padding-top: 63px;
   padding-bottom: 63px;
@@ -1553,17 +1614,23 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-overlay,
-.portfolio-item a:focus .portfolio-overlay {
+.portfolio-item:hover {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-item:hover .portfolio-overlay {
   height: 100%;
   opacity: 1;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
 }
 
-.portfolio-item:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-item a:focus .portfolio-overlay {
+  height: 100%;
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
 }
 
 .portfolio-item:focus-within {
@@ -1590,7 +1657,6 @@ textarea::placeholder {
 
 .portfolio li {
   margin-right: 30px;
-  /*outline: 1px solid #eeeeee;*/
   margin-bottom: 30px;
 }
 
@@ -1603,7 +1669,7 @@ textarea::placeholder {
 }
 
 .portfolio a {
-  color: #212121;
+  color: var(--main-txt-color);
   text-decoration: none;
 }
 
@@ -1629,11 +1695,8 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sec-txt-color);
   margin-top: 4px;
-}
-
-.description {
   margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
